@@ -1,0 +1,12 @@
+<p>user-data works!</p>
+<form #boxform="ngForm" (submit)="getUserAllData(boxform.value)">
+    <label>Name:</label>
+    <input type="text" name="name" ngModel/><br>
+    <label>Email:</label>
+    <input type="email" name="email" ngModel/><br>
+    <label>Age:</label>
+    <input type="number" name="age" ngModel/><br>
+    <button>Click</button>
+</form>
+
+<h1>{{name}}</h1>
