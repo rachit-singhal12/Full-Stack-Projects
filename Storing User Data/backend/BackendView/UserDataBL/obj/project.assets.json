@@ -1,0 +1,96 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "UserDataDL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/UserDataDL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UserDataDL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UserDataDL/1.0.0": {
+      "type": "project",
+      "path": "../UserDataDL/UserDataDL.csproj",
+      "msbuildProject": "../UserDataDL/UserDataDL.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "UserDataDL >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\lenovo\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\stroing user data\\Full-Stack-Projects\\Storing User Data\\backend\\BackendView\\UserDataBL\\UserDataBL.csproj",
+      "projectName": "UserDataBL",
+      "projectPath": "C:\\Users\\lenovo\\Desktop\\stroing user data\\Full-Stack-Projects\\Storing User Data\\backend\\BackendView\\UserDataBL\\UserDataBL.csproj",
+      "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lenovo\\Desktop\\stroing user data\\Full-Stack-Projects\\Storing User Data\\backend\\BackendView\\UserDataBL\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\lenovo\\Desktop\\stroing user data\\Full-Stack-Projects\\Storing User Data\\backend\\BackendView\\UserDataDL\\UserDataDL.csproj": {
+              "projectPath": "C:\\Users\\lenovo\\Desktop\\stroing user data\\Full-Stack-Projects\\Storing User Data\\backend\\BackendView\\UserDataDL\\UserDataDL.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

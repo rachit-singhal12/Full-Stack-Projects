@@ -1,0 +1,12 @@
+C:\Users\lenovo\Desktop\stroing user data\Full-Stack-Projects\Storing User Data\backend\BackendView\UserDataDL\bin\Debug\net6.0\UserDataDL.deps.json
+C:\Users\lenovo\Desktop\stroing user data\Full-Stack-Projects\Storing User Data\backend\BackendView\UserDataDL\bin\Debug\net6.0\UserDataDL.dll
+C:\Users\lenovo\Desktop\stroing user data\Full-Stack-Projects\Storing User Data\backend\BackendView\UserDataDL\bin\Debug\net6.0\UserDataDL.pdb
+C:\Users\lenovo\Desktop\stroing user data\Full-Stack-Projects\Storing User Data\backend\BackendView\UserDataDL\obj\Debug\net6.0\UserDataDL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenovo\Desktop\stroing user data\Full-Stack-Projects\Storing User Data\backend\BackendView\UserDataDL\obj\Debug\net6.0\UserDataDL.AssemblyInfoInputs.cache
+C:\Users\lenovo\Desktop\stroing user data\Full-Stack-Projects\Storing User Data\backend\BackendView\UserDataDL\obj\Debug\net6.0\UserDataDL.AssemblyInfo.cs
+C:\Users\lenovo\Desktop\stroing user data\Full-Stack-Projects\Storing User Data\backend\BackendView\UserDataDL\obj\Debug\net6.0\UserDataDL.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\stroing user data\Full-Stack-Projects\Storing User Data\backend\BackendView\UserDataDL\obj\Debug\net6.0\UserDataDL.sourcelink.json
+C:\Users\lenovo\Desktop\stroing user data\Full-Stack-Projects\Storing User Data\backend\BackendView\UserDataDL\obj\Debug\net6.0\UserDataDL.dll
+C:\Users\lenovo\Desktop\stroing user data\Full-Stack-Projects\Storing User Data\backend\BackendView\UserDataDL\obj\Debug\net6.0\refint\UserDataDL.dll
+C:\Users\lenovo\Desktop\stroing user data\Full-Stack-Projects\Storing User Data\backend\BackendView\UserDataDL\obj\Debug\net6.0\UserDataDL.pdb
+C:\Users\lenovo\Desktop\stroing user data\Full-Stack-Projects\Storing User Data\backend\BackendView\UserDataDL\obj\Debug\net6.0\ref\UserDataDL.dll

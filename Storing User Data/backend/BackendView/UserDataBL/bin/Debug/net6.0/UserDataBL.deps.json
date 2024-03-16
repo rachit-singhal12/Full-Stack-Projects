@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "UserDataBL/1.0.0": {
+        "dependencies": {
+          "UserDataDL": "1.0.0"
+        },
+        "runtime": {
+          "UserDataBL.dll": {}
+        }
+      },
+      "UserDataDL/1.0.0": {
+        "runtime": {
+          "UserDataDL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UserDataBL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UserDataDL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

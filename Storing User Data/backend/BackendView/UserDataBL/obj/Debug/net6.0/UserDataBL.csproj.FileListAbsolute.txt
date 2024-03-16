@@ -1,0 +1,16 @@
+C:\Users\lenovo\Desktop\stroing user data\Full-Stack-Projects\Storing User Data\backend\BackendView\UserDataBL\bin\Debug\net6.0\UserDataBL.deps.json
+C:\Users\lenovo\Desktop\stroing user data\Full-Stack-Projects\Storing User Data\backend\BackendView\UserDataBL\bin\Debug\net6.0\UserDataBL.dll
+C:\Users\lenovo\Desktop\stroing user data\Full-Stack-Projects\Storing User Data\backend\BackendView\UserDataBL\bin\Debug\net6.0\UserDataBL.pdb
+C:\Users\lenovo\Desktop\stroing user data\Full-Stack-Projects\Storing User Data\backend\BackendView\UserDataBL\obj\Debug\net6.0\UserDataBL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenovo\Desktop\stroing user data\Full-Stack-Projects\Storing User Data\backend\BackendView\UserDataBL\obj\Debug\net6.0\UserDataBL.AssemblyInfoInputs.cache
+C:\Users\lenovo\Desktop\stroing user data\Full-Stack-Projects\Storing User Data\backend\BackendView\UserDataBL\obj\Debug\net6.0\UserDataBL.AssemblyInfo.cs
+C:\Users\lenovo\Desktop\stroing user data\Full-Stack-Projects\Storing User Data\backend\BackendView\UserDataBL\obj\Debug\net6.0\UserDataBL.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\stroing user data\Full-Stack-Projects\Storing User Data\backend\BackendView\UserDataBL\obj\Debug\net6.0\UserDataBL.sourcelink.json
+C:\Users\lenovo\Desktop\stroing user data\Full-Stack-Projects\Storing User Data\backend\BackendView\UserDataBL\obj\Debug\net6.0\UserDataBL.dll
+C:\Users\lenovo\Desktop\stroing user data\Full-Stack-Projects\Storing User Data\backend\BackendView\UserDataBL\obj\Debug\net6.0\refint\UserDataBL.dll
+C:\Users\lenovo\Desktop\stroing user data\Full-Stack-Projects\Storing User Data\backend\BackendView\UserDataBL\obj\Debug\net6.0\UserDataBL.pdb
+C:\Users\lenovo\Desktop\stroing user data\Full-Stack-Projects\Storing User Data\backend\BackendView\UserDataBL\obj\Debug\net6.0\ref\UserDataBL.dll
+C:\Users\lenovo\Desktop\stroing user data\Full-Stack-Projects\Storing User Data\backend\BackendView\UserDataBL\bin\Debug\net6.0\UserDataDL.dll
+C:\Users\lenovo\Desktop\stroing user data\Full-Stack-Projects\Storing User Data\backend\BackendView\UserDataBL\bin\Debug\net6.0\UserDataDL.pdb
+C:\Users\lenovo\Desktop\stroing user data\Full-Stack-Projects\Storing User Data\backend\BackendView\UserDataBL\obj\Debug\net6.0\UserDataBL.csproj.AssemblyReference.cache
+C:\Users\lenovo\Desktop\stroing user data\Full-Stack-Projects\Storing User Data\backend\BackendView\UserDataBL\obj\Debug\net6.0\UserDataBL.csproj.Up2Date
