@@ -1,0 +1,12 @@
+<h1>{{title}}</h1>
+<input type="number" name="id" #bv/>
+<button (click)="getStudentData(bv.value)">Get All Data</button>
+<div *ngIf="studentList">
+    <h2>Student List</h2>
+    <ul>
+      <li *ngFor="let student of studentList.Table">
+        <!-- { "studentid": 1, "Id": 1234, "Name": "Rachit Singhal", "Email": "S@gmail.com", "Password": "rachit123", "Phone": "6397679413", "Age": 22 } -->
+        {{student.studentid}} - {{student.Id}} - {{ student.Name }} - {{ student.Email }} - {{student.Password}} - {{student.Phone}} - {{student.Age}} <!-- Displaying student details -->
+      </li>
+    </ul>
+  </div>
