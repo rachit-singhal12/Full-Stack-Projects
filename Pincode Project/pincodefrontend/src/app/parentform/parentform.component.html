@@ -1,0 +1,116 @@
+<div class="container mt-5" style="margin-bottom : 5%">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="card bg-light">
+        <div class="card-header bg-primary text-white">
+          <h3 class="text-center">Registration Form</h3>
+        </div>
+        <div class="card-body">
+
+          <form #boxForm="ngForm" (submit)="getUserData(boxForm.value)">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" class="form-control" #name="ngModel" name="name" placeholder="Enter your name"
+                [(ngModel)]="userClassData.name" required pattern="[a-zA-Z ]+">
+              <div style="margin : 0px" *ngIf="name.errors && name.touched">
+                <small style="color : red" *ngIf="name.errors['required']">Name is required</small>
+                <small style="color : red" *ngIf="name.errors['pattern']">Enter a valid name</small>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" name="email" #email="ngModel" placeholder="Enter your email"
+                [(ngModel)]="userClassData.email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+              <div style="margin : 0px" *ngIf="email.errors && email.touched">
+                <small style="color : red" *ngIf="email.errors['required']">email is required</small>
+                <small style="color : red" *ngIf="email.errors['pattern']">Enter a valid email</small>
+              </div>
+            </div>
+
+            
+            <div class="form-group">
+              <label for="date">Date of Birth:</label>
+              <input type="date" class="form-control" name="birth" #birth="ngModel"
+                placeholder="Enter your date of birth" [(ngModel)]="userClassData.dateOfBirth" required />
+              <div style="margin : 0px" *ngIf="birth.errors && birth.touched">
+                <small style="color : red" *ngIf="birth.errors['required']">birth is required</small>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="age">Age:</label>
+              <input type="number" class="form-control" name="age" #age="ngModel" pattern="^(1[89]|[2-9][0-9])$"
+                placeholder="Enter your age" [(ngModel)]="userClassData.age" required>
+              <div style="margin : 0px" *ngIf="age.errors && age.touched">
+                <small style="color : red" *ngIf="age.errors['required']">age is required</small>
+                <small style="color : red" *ngIf="age.errors['pattern']">Enter a valid age</small>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label>Gender:</label>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gender" #gender="ngModel" value="male"
+                  [(ngModel)]="userClassData.gender" required>
+                <label class="form-check-label" for="male">Male</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gender" #gender="ngModel" value="female"
+                  [(ngModel)]="userClassData.gender" required>
+                <label class="form-check-label" for="female">Female</label>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label>Hobbies:</label>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="hobby1" [(ngModel)]="hobby1" value="true">
+                <label class="form-check-label" for="hobby1">Reading</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="hobby2" [(ngModel)]="hobby2" value="true">
+                <label class="form-check-label" for="hobby2">Traveling</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="hobby3" [(ngModel)]="hobby3" value="true">
+                <label class="form-check-label" for="hobby3">Cooking</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="address">Address:</label>
+              <button type="button" style="margin-left: 65%" class="btn btn-success" (click)="OpenModal()">+
+                Address</button>
+            </div>
+
+            <div class="form-group" *ngIf="userClassData.state">
+              <label for="state">State</label>
+              <input type="text" class="form-control" name="state" [(ngModel)]="userClassData.statename" readonly>
+            </div>
+
+            <div class="form-group" *ngIf="userClassData.district">
+              <label for="district">District</label>
+              <input type="text" class="form-control" name="district" [(ngModel)]="userClassData.districtname" readonly>
+            </div>
+
+            <div class="form-group" *ngIf="userClassData.city">
+              <label for="city">City</label>
+              <input type="text" class="form-control" name="city" [(ngModel)]="userClassData.cityname" readonly>
+            </div>
+
+            <div class="form-group" *ngIf="userClassData.pincode">
+              <label for="pincode">Pincode</label>
+              <input type="text" class="form-control" name="pincode" [(ngModel)]="userClassData.pincode" readonly>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+ 
+<div *ngIf="opened">
+  <app-childform [childInput]="userClassData"></app-childform>
+</div>

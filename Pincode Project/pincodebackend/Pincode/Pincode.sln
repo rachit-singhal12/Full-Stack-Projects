@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pincode", "Pincode\Pincode.csproj", "{8A7C680A-EA59-4D14-BBA0-304CBD3085CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PincodeBL", "PincodeBL\PincodeBL.csproj", "{C3302F75-C652-4D8C-9779-F130DE7356E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PincodeDL", "PincodeDL\PincodeDL.csproj", "{D4472458-9755-4B8B-86D2-C907FAF367BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A7C680A-EA59-4D14-BBA0-304CBD3085CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A7C680A-EA59-4D14-BBA0-304CBD3085CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A7C680A-EA59-4D14-BBA0-304CBD3085CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A7C680A-EA59-4D14-BBA0-304CBD3085CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3302F75-C652-4D8C-9779-F130DE7356E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3302F75-C652-4D8C-9779-F130DE7356E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3302F75-C652-4D8C-9779-F130DE7356E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3302F75-C652-4D8C-9779-F130DE7356E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4472458-9755-4B8B-86D2-C907FAF367BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4472458-9755-4B8B-86D2-C907FAF367BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4472458-9755-4B8B-86D2-C907FAF367BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4472458-9755-4B8B-86D2-C907FAF367BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {306B6535-A6DD-4D86-AF0A-4332C0E06465}
+	EndGlobalSection
+EndGlobal

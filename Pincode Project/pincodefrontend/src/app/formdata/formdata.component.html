@@ -1,0 +1,41 @@
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Date of Birth</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Hobbies</th>
+                <th>State</th>
+                <th>District</th>
+                <th>City</th>
+                <th>Pin Code</th>
+                <th>Active</th>
+                <th>Update</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let user of userListDataBase">
+                <td>{{ user.Name | titlecase }}</td>
+                <td>{{ user.Email }}</td>
+                <td>{{ user.DateOfBirth | date }}</td>
+                <td>{{ user.Age }}</td>
+                <td>{{ user.Gender | titlecase }}</td>
+                <td>{{ user.Hobbies | titlecase }}</td>
+                <td>{{ user.State }}</td>
+                <td>{{ user.District }}</td>
+                <td>{{ user.City }}</td>
+                <td>{{ user.Pincode }}</td>
+                <td *ngIf="user.Active=='Y'"><button class="btn btn-success">Yes</button></td>
+                <td *ngIf="user.Active=='N'"><button class="btn btn-danger">No</button></td>
+
+                <td colspan="2" *ngIf="user.Active=='N'"><button type="button" (click)="ChangeActiveState(user.UsersId)" class="btn btn-success">Change User State</button></td>
+
+                <td  *ngIf="user.Active=='Y'"><a routerLink="/{{user.UsersId}}" class="btn btn-primary">Update</a></td>
+
+                <td  *ngIf="user.Active=='Y'"><button type="button" (click)="deleteUserData(user.UsersId)" class="btn btn-danger">Delete</button></td>
+            </tr>
+        </tbody>
+    </table>

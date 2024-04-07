@@ -1,0 +1,6 @@
+<p>practice works!</p>
+
+<select #boxSkill [(ngModel)]="selectedSkills" (change)="getSkills(boxSkill.value)">
+    <option select="">Select</option>
+    <option *ngFor="let skill of skillList">{{skill}}</option>
+</select>
